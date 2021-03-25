@@ -1,109 +1,112 @@
-h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
-    font-style: oblique;
-    color: black;
-    text-align: center;
-    margin: auto;
+.body {
+  font-family: 'Roboto', sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: inherit;
 }
 
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  font-style: oblique;
+  color: black;
+  text-align: center;
+  margin: auto;
+}
 
-table{
-    border:black;
-    align-self: center;
-    margin: auto;
-    width: 100%;
-    border-spacing: 10px;
-
+table {
+  border: black;
+  align-self: center;
+  margin: auto;
+  width: 100%;
+  border-spacing: 10px;
 }
 th {
-    text-align: center;
-    margin: auto;
+  text-align: center;
+  margin: auto;
 }
 
 td {
-    border: solid 15px black;
+  border: solid 15px black;
 }
 
-
 main {
-    background-color: rgb(147, 147, 160);
+  background-color: rgb(147, 147, 160);
 }
 
 .receptek {
-    text-align: center;
-    color: blue;
-    font-style: italic;
+  text-align: center;
+  color: blue;
+  font-style: italic;
 }
 
 .recipes {
-    display: block;
-    flex-wrap: nowrap;
-    margin: 0 -10px;
-    width: 50%;
-    text-align: center;
-  }
+  display: block;
+  flex-wrap: nowrap;
+  margin: 0 -10px;
+  width: 50%;
+  text-align: center;
+}
 
-.container-fluid{
-    max-width: 2000px;
-    margin: 0 auto;
-    display: inline-block;
-    flex-wrap: nowrap;
-    min-height: 250px;
-    align-items: center;
-
-  }
+.container-fluid {
+  max-width: 2000px;
+  margin: 0 auto;
+  display: inline-block;
+  flex-wrap: nowrap;
+  min-height: 250px;
+  align-items: center;
+}
 
 .receptcimek {
-    text-align: center;
-    padding: 5px;
-    text-decoration: underline;
+  text-align: center;
+  padding: 5px;
+  text-decoration: underline;
 }
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 aside {
-    flex-basis: 30vw;   /*20 volt */
-  }
-  
+  flex-basis: 30vw; /*20 volt */
+}
+
 aside ul {
-    list-style: upper-roman;
-    margin: 0;
-    padding: 15px;
-  }
-  aside a {
-    display: block;
-    color: #141d2b;
-    font-size: 14px;
-    text-decoration: none;
-    line-height: 30px;
-  }
-  aside a:hover {
-    text-decoration: transparent;
-  }
-  aside li {
-    padding: 15px 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
+  list-style: upper-roman;
+  margin: 0;
+  padding: 15px;
+}
+aside a {
+  display: block;
+  color: #141d2b;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 30px;
+}
+aside a:hover {
+  text-decoration: transparent;
+}
+aside li {
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
 
 .leiras {
-    text-align: center;
-    font-style: italic;
-    color: ivory;
+  text-align: center;
+  font-style: italic;
+  color: ivory;
 }
 .row {
-    display: block;
+  display: block;
 }
 
 .column {
-    float: left;
-    width: 50%;
-    padding: 5px;
-  }
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
 
 .row::after {
-  content: "";
+  content: '';
   clear: both;
   display: table;
 }
