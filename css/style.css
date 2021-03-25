@@ -14,10 +14,13 @@ body {
 
 .down {
   margin: 200px;
+  text-align: center;
+  letter-spacing: 10px;
+  color: #2b4558;
 }
 .down h1 {
   font-size: 85px;
-  font-weight: bolder;
+  font-weight: bold;
 }
 .mid-card {
   height: 500px;
@@ -25,6 +28,9 @@ body {
 }
 .foo {
   text-align: center;
+}
+.foo a {
+  color: #fff;
 }
 
 h3 {

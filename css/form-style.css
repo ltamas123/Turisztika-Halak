@@ -1,7 +1,29 @@
 body {
   background-color: #1a2a35;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: inherit;
 }
 
 .header {
-  margin: 50px;
+  margin-bottom: 20px;
+}
+
+.Jel {
+  text-align: center;
+  font-size: xx-large;
+  margin-bottom: 10px;
+}
+
+.foo {
+  text-align: center;
+}
+
+.foo a {
+  color: #fff;
+}
+.end {
+  margin: 80px 0px 20px 00px;
 }

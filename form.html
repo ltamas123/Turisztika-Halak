@@ -41,32 +41,12 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
+              <a class="nav-link active" aria-current="page" href="./form.html"
                 >Jelentkezés</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./hazi.html">Halak elkészítése</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">LOL</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
+              <a class="nav-link" href="./hazi.html">Hal ismertető</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -83,87 +63,255 @@
         </div>
       </div>
     </nav>
+    <section class="header">
+      <div class="row align-items-center justify-content-center">
+        <div class="col"></div>
+        <div class="col-9">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/adria.jpg" class="d-block w-100" alt="adria" />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Adriai-tenger</h5>
+                  <p>
+                    Az Adriai-tenger, gyakran csak Adria (horvátul: Jadransko
+                    more, olaszul: Mare Adriatico) a Földközi-tenger része
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./img/carib.jpg"
+                  class="d-block w-100"
+                  alt="caribien"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Karib-tenger</h5>
+                  <p>
+                    A trópusi fekvésű Karib-tenger az Atlanti-óceán és a
+                    Mexikói-öböl között, a Karib-lemezen helyezkedik el.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./img/redsea.jpg"
+                  class="d-block w-100"
+                  alt="redsea"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Vörös-tenger</h5>
+                  <p>
+                    A Vörös-tenger Afrika és Ázsia (közelebbről az
+                    Arab-félsziget) között helyezkedik el.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
+    </section>
+    <div class="Jel">Jelentkezési lap</div>
+    <section class="form">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-9">
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="last-name" class="form-label">Vezetéknév</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Vezetéknév"
+                aria-label="Vezetéknév"
+              />
+            </div>
+            <div class="col-md-6">
+              <label for="first-name" class="form-label">Keresztnév</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Keresztnév"
+                aria-label="Keresztnév"
+              />
+            </div>
+            <div class="col-md-8">
+              <label for="first-name" class="form-label">E-mail cim</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="E-mail cim"
+                aria-label="E-mail cim"
+              />
+            </div>
+            <div class="col-md-4">
+              <label for="first-name" class="form-label">Telefonszám</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Telefonszám"
+                aria-label="Telefonszám"
+              />
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Cim</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputAddress"
+                placeholder="1234 Main St"
+              />
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label"
+                >Cim második sora</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="inputAddress2"
+                placeholder="Apartment, studio, or floor"
+              />
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Város</label>
+              <input type="text" class="form-control" id="inputCity" />
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">Megye</label>
+              <select id="inputState" class="form-select">
+                <option selected>Választás</option>
+                <option>Bács-Kiskun</option>
+                <option>Baranya</option>
+                <option>Békés</option>
+                <option>Borsod-Abaúj-Zemplén</option>
+                <option>Csongrád</option>
+                <option>Fejér</option>
+                <option>Győr-Moson-Sopron</option>
+                <option>Hajdú-Bihar</option>
+                <option>Heves</option>
+                <option>Jász-Nagykun-Szolnok</option>
+                <option>Komárom-Esztergom</option>
+                <option>Nógrád</option>
+                <option>Pest</option>
+                <option>Somogy</option>
+                <option>Szabolcs-Szatmár-Bereg</option>
+                <option>Tolna</option>
+                <option>Vas</option>
+                <option>Veszprém</option>
+                <option>Zala</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Irányitószám</label>
+              <input type="text" class="form-control" id="inputZip" />
+            </div>
 
-    <section class="header"><div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <div class="col-md-9">
+              <label for="inputState" class="form-label">Uticél</label>
+              <select id="inputState" class="form-select">
+                <option selected>Uticél kiválasztása</option>
+                <option>Vörös tenger</option>
+                <option>Adriai tenger</option>
+                <option>Karib tenger</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="gridCheck"
+                />
+                <label class="form-check-label" for="gridCheck">
+                  Elolvastam mindent amit el kell olvasni
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Küldés</button>
+            </div>
+          </form>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div></section>
+      </div>
+    </section>
 
-    <div class="row align-items-center justify-content-center">
-        <div class="col">
-        
+    <section class="end">
+      <div class="container">
+        <div class="row">
+          <div class="col align-self-center">
+            <div class="foo"><a href="#">Back to top</a></div>
+            <div class="foo"><a href="./index.html">Index</a></div>
+            <div class="foo"><a href="./hazi.html">Halak</a></div>
+          </div>
+          <div class="col align-self-center">
+            <div class="foo"><a href="#">Back to top</a></div>
+            <div class="foo"><a href="./index.html">Index</a></div>
+            <div class="foo"><a href="./hazi.html">Halak</a></div>
+          </div>
+          <div class="col align-self-center">
+            <div class="foo"><a href="#">Back to top</a></div>
+            <div class="foo"><a href="./index.html">Index</a></div>
+            <div class="foo"><a href="./hazi.html">Halak</a></div>
+          </div>
         </div>
-        <div class="col">
-          <div><div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">@</span>
-            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-          </div>
-          
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-            <span class="input-group-text" id="basic-addon2">@example.com</span>
-          </div>
-          
-          <label for="basic-url" class="form-label">Your vanity URL</label>
-          <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
-            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-          </div>
-          
-          <div class="input-group mb-3">
-            <span class="input-group-text">$</span>
-            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-            <span class="input-group-text">.00</span>
-          </div>
-          
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Username" aria-label="Username">
-            <span class="input-group-text">@</span>
-            <input type="text" class="form-control" placeholder="Server" aria-label="Server">
-          </div>
-          
-          <div class="input-group">
-            <span class="input-group-text">With textarea</span>
-            <textarea class="form-control" aria-label="With textarea"></textarea>
-          </div></div>
-        </div>
-        <div class="col">
-          
-        </div>
+      </div>
     </section>
   </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"
+  ></script>
 </html>
