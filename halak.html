@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./halak.css" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Halfajták</title>
+    <a id="teteje"></a>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+      <a class="navbar-brand" href="./index.html">Főoldal</a>
+      <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      >
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="./form.html"
+      >Jelentkezés</a
+      >
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="./halak.html">Hal ismertető</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#ételek">Halak elkészítése</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+      <input
+      class="form-control me-2"
+      type="search"
+      placeholder="Search"
+      aria-label="Search"
+      />
+      <button class="btn btn-outline-success" type="submit">
+      Search
+          </button>
+        </form>
+        </div>
+      </div>
+    </nav>
+      
+
+      
+      <header>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/White_shark.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Whale shark</h5>
+                  <p>A jelenleg élő legnagyobb hal</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/bashing_shark.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Basking shark</h5>
+                  <p>A jelenleg élő második legnagyobb hal</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/oarfish.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Oarfish</h5>
+                  <p>A leghosszabb szálkás hal</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/mola_mola.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Mola Mola</h5>
+                  <p>A hal aki majdnem annyira magas mint széles</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/manta_ray.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Manta Ray</h5>
+                  <p>A híres szárnyas hal</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </header>
+
+
+    <main>
+      <h2>Főbb Jellemzőik</h2>
+
+      <table class="table table-l table-borderless table-hover">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">Whale shark</th>
+            <th scope="col">Basking Shark</th>
+            <th scope="col">Oarfish</th>
+            <th scope="col">Mola Mola</th>
+            <th scope="col">Manta Ray</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Méret</th>
+            <td>9-13 méter</td>
+            <td>6-12 méter</td>
+            <td>15 méter</td>
+            <td>1,8 hosszú - 2,5 méter széles</td>
+            <td>3 méter hosszú 6 méter széles</td>
+          </tr>
+          <tr>
+            <th scope="row">Súly</th>
+            <td>21 tonna</td>
+            <td>5 tonna</td>
+            <td>270 kg</td>
+            <td>1,3 tonna</td>
+            <td>1,3 tonna</td>
+          </tr>
+          <tr>
+            <th scope="row">Megkülönböztető jegyek</th>
+            <td>Nagy száj, fehér pöttyök</td>
+            <td>Nagy száj, szürke test</td>
+            <td>rendkívül hosszú test</td>
+            <td>hosszú lapos test</td>
+            <td>lapos test, szárnyszerű</td>
+          </tr>
+          <tr>
+            <th scope="row">Élőhely</th>
+            <td>Meleg tengeri</td>
+            <td>Partmenti vizek</td>
+            <td>Trópusi és mérsékelt óceánok</td>
+            <td>Trópusi és mérsékelt óceánok</td>
+            <td>Trópusi és szubtrópusi óceánok</td>
+          </tr>
+          <tr>
+            <th scope="row">Táplálkozása</th>
+            <td>Plankton és kis halak</td>
+            <td>Plankton</td>
+            <td>Plankton, medúza, tintahal</td>
+            <td>medúza</td>
+            <td>Plankton, kis halak, férgek</td>
+          </tr>
+        </tbody>
+      </table>
+      <h1 class="receptek">Ha esetleg megéheztünk, íme pár fogyasztható hal</h1>
+      <a id="ételek"></a>
+    <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="receptcimek">Lazac tejszínes gombás mártásban</h2>
+              <img src="./img/haletel1.jpg" alt="image" />
+            </div>
+            <aside>
+              <ul>
+                <li>
+                  <a href="">A sütőt előmelegítjük 220 fokra, egy tepsi aljába sütőpapírt teszünk, rátesszük a lazacot. Meglocsoljuk olajjal, sózzuk és borsozzuk. 13-15 perc alatt megsütjük.</a>
+                </li>
+                <li>
+                  <a href="">Közben egy serpenyőben felforrósítjuk az olajat, megdinszteljük rajta a hagymát. Hozzáadjuk a gombát, a fokhagymát és a spenótot. Összefonnyasztjuk, felöntjük a fehérborral és néhány percig rotyogtatjuk.
+   
+                  </a>
+                </li>
+                <li>
+                  <a href="">Hozzáöntjük a tejszínt és alaposan összeforgatjuk. Sóval és borssal fűszerezzük. A lazac mellé tálaljuk.</a>
+                </li>
+              </ul>
+             </aside>
+            <div class="col-md-6">
+              <h2 class="receptcimek">Szegedi (Tiszai) halászlé</h2>
+              <img src="./img/haletel2.jpg" alt="image" />
+            </div>
+          <aside>
+           <ul>
+             <li>
+               <a href="">A megtisztított halakat kifilézzük. A halfiléket feldaraboljuk, megsózzuk és felhasználásig hűtőbe rakjuk.</a>
+             </li>
+             <li>
+               <a href="">A csontokat és a halfejet egy edénybe tesszük, rádaraboljuk a hagymát, a fokhagymát, sózzuk, majd felöntjük 2 liter hideg vízzel és kb. 1,5 órán keresztül főzzük.</a>
+             </li>
+             <li>
+               <a href="">Ha az alaplé elkészült, akkor egy tésztaszűrőn átpasszírozzuk. Az átpasszírozott alaplevet újra tűzre tesszük, hozzáadjuk pirospaprikát, 2 perc forralás után a halfiléket is, (amennyiben halbelsőségünk is van, azt is ezzel együtt főzzük meg) és 10 perc alatt puhára főzzük. Felkarikázott erőspaprikával ízesíthetjük a levest.</a>
+             </li>
+           </ul>
+          </aside>
+          <div class="col-md-6">
+            <h2 class="receptcimek">Sült csuka citrommártással</h2>
+            <img src="./img/haletel3.jpeg" alt="image" />
+          </div>
+        <aside>
+         <ul>
+           <li>
+             <a href="">A konyhakész halat megmossuk, beirdaljuk, meglocsoljuk a citromlével, és kb. 30 percig állni hagyjuk.</a>
+           </li>
+           <li>
+             <a href="">A lisztet, az őrölt paprikát és a zsemlemorzsát összekeverjük, és egy tálcára szitáljuk. A szárazra törölt halat 3 részre vágjuk, és a darabokat meghempergetjük a lisztes keverékben. Ezután a felhevített olajban oldalaként 4-4 perc alatt pirosra sütjük. </a>
+           </li>
+           <li>
+             <a href="">A mártáshoz a vajat felolvasztjuk, hozzákeverjük a lisztet és az alaplevet vagy vizet. Csomómentesre keverjük, és kb. 5-8 percig, sűrűsödésig főzzük.</a>
+           </li>
+           <li>
+            <a href="">A tojássárgáját a tejszínnel összekeverjük és hozzáadjuk a mártás alaphoz, és ismét simára keverjük. Sóval, borssal, citromlével és cukorral ízesítjük.</a>
+          </li>
+         </ul>
+        </aside>
+        <div class="col-md-6">
+          <h2 class="receptcimek">Ötfűszeres kínai harcsa</h2>
+          <img src="./img/haletel4.jpeg" alt="image" />
+        </div>
+      <aside>
+       <ul>
+         <li>
+           <a href="">Az afrikai harcsát megmossuk, majd beirdaljuk jó sűrűn, és szárazra törölgetjük. A fűszereket összekeverjük, majd bedörzsöljük vele a halszeleteket úgy, hogy a vágásokba is jusson. Egy éjszakára egy légmentesen záródó dobozban a hűtőbe tesszük, hogy jól átvegye a hal a finom fűszerek zamatát.</a>
+         </li>
+         <li>
+           <a href="">Másnap egy serpenyőbe öntjük a szójaszószokat,a felaprított gyömbért, a hagymák csíkokra vágott zöld szárát, az alaplét és a barna cukrot. Elkeverjük összeforraljuk, majd beletesszük a halszelteket, és 6-8 percig a lében pároljuk.</a>
+         </li>
+         <li>
+           <a href="">A maradék fehér hagymát csíkokra vágjuk, a gyömbérből egy kicsit lecsípünk, végül a petrezselymet, vagy a koriandert megmossuk, a leveleket letépkedjük.</a>
+         </li>
+         <li>
+          <a href="">A halat párolás után kiemeljük a tányérra, és a szószt beforraljuk, hogy sűrű legyen. A szósszal leöntjük az ötfűszeres harcsát, megszórjuk szezámmaggal, rátesszük a csíkokra vágott újhagymát,és a gyömbért, a zölddel megszórjuk,és már lehet is fogyasztani!</a>
+        </li>
+       </ul>
+      </aside>
+      <div class="col-md-6">
+        <h2 class="receptcimek">Ötfűszeres kínai harcsa</h2>
+        <img src="./img/haletel5.jpg" alt="image" />
+      </div>
+    <aside>
+     <ul>
+       <li>
+         <a href="">Az egyik citrom levét kifacsarjuk, és a sáfrányt a citromlében áztatjuk 5 percig. A megtisztított fokhagymát és az egyik fej hagymát durvára vágjuk, majd aprítógépben összeturmixoljuk a korianderlevéllel, a petrezselyemmel, a fűszerekkel és a sáfrányos citromlével. Az apránként hozzáadott olívaolajjal paszta állagúra keverjük, és sóval ízesítjük.</a>
+       </li>
+       <li>
+         <a href="">A maradék 4 db citromot forró vízzel lemossuk és vékonyan felszeleteljük. A pisztrángokat hideg vízzel leöblítjük, konyhai papírtörlővel leszárítjuk, mindkét oldalon kb. 3 cm-enként ferdén bevagdossuk, és kívül-belül megkenjük a fűszerpasztával. Ezután tálcára téve letakarjuk, és a hűtőben pihentetjük kb. 60 percig.</a>
+       </li>
+       <li>
+         <a href="">A maradék 2 fej hagymát megtisztítjuk, és vastagon felszeleteljük. Alufóliából a pisztrángok becsomagolásához elegendő nagyságú darabokat tépünk. A hűtőből kivett halak hasüregébe és az egyik oldalukon a bevágásokba citromkarikákat teszünk. A hagymát és a maradék citromot elosztjuk a fóliadarabokon, majd ráhelyezzük a halakat, és gondosan becsomagoljuk.</a>
+       </li>
+       <li>
+        <a href="">A grillt felforrósítjuk, és a fóliacsomagokat közepes hőfokon 10-15 percig grillezzük. Végül a csomagokat óvatosan felvágjuk, és a pisztrángokat a fólián tálaljuk.</a>
+      </li>
+     </ul>
+    </aside>
+    <a href="#teteje">Ugrás a tetejésre</a>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        </main>
+  </body>
+</html>
